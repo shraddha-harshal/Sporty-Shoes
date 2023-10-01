@@ -26,7 +26,7 @@ import com.sheryian.major.service.UserService;
 
 @Controller
 public class AdminController {
-	public static String uploadDir= System.getProperty("user.dir")+"/src/main/resources/static/productImages";   //System.getProperty("user.dir"): ye apko root folder(src) tak ka path dega,ye btayega ki apka applicatio kha hai
+	public static String uploadDir= System.getProperty("user.dir")+"/src/main/resources/static/productImages";   //System.getProperty("user.dir")
 	@Autowired
 	CategoryService categoryService;
 	@Autowired
